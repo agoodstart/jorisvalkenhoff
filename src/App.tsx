@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           The site is currently under construction. 
-          Please come back later
+          Please come back later...
         </p>
 
         <p>
