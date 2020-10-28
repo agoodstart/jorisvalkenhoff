@@ -1,11 +1,5 @@
-.App {
-  text-align: center;
-}
+@import 'styles/colors';
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +29,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.test-anchor {
+  color: $lightslategray;
 }
