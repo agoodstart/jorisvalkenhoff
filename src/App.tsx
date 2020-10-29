@@ -14,12 +14,7 @@ function App() {
           Check out my <a target="_blank" rel="noreferrer" className="test-anchor" href="https://nl.linkedin.com/in/joris-valkenhoff-22670a186">LinkedIn</a> page
         </p>
 
-        {/* <div className="testDiv">
-          <div className="color1"></div>
-          <div className="color2"></div>
-          <div className="color3"></div>
-          <div className="color4"></div>
-        </div> */}
+        <p>Test</p>
       </header>
     </div>
   );
