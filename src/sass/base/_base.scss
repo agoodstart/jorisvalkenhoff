@@ -16,7 +16,11 @@ body {
 //   padding: 3rem;
 font-family: 'objektiv-mk3', sans-serif;
 font-weight: 500;
-background-color: $oldburgundy;
+// background-color: $oldburgundy;
+// background-color: $smokyblack;
+// background-color: $blackfogra39;
+// background-color: $eerieblack;
+background: linear-gradient(to right bottom, $smokyblack, $smokyblack 50%, $blackfogra39 50% 100%);
 letter-spacing: 2px;
 line-height: 4rem;
 }
