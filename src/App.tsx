@@ -4,7 +4,9 @@ import {IntroSection} from './tsx/introsection';
 
 const App: React.FC = () => {
   return (
-    <IntroSection />
+    <section className="App">
+      <IntroSection />
+    </section>
   )
 }
 

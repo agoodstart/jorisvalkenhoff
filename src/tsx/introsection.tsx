@@ -1,21 +1,17 @@
 import React from 'react';
+import {Box} from './components/perspective-box';
 
 export const IntroSection: React.FC = () => {
     return (
-        <section className="App"> 
-            <header className="App-header">
-                <h1>
-                    Test
+        <header className="App-header">
+            <div className="header-wrapper">
+                <div className="wrapper--side-front"></div>
+                <div className="wrapper--side-back u-center-text">
+                <h1 className="h1">
+                    Coming soon...
                 </h1>
-            <p>
-                The site is currently under construction. 
-                Please come back later...
-            </p>
-        
-            <p>
-                Check out my <a target="_blank" rel="noreferrer" className="test-anchor" href="https://nl.linkedin.com/in/joris-valkenhoff-22670a186">LinkedIn</a> page
-            </p>
-            </header>
-      </section>
+                </div>
+            </div>
+        </header>
     )
 }

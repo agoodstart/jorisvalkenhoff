@@ -1,11 +1,40 @@
 .App-header {
-    // background-color: $darkslategray-2;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: $ivory;
-  }
-  
+  width: 100%;
+}
+
+.header-wrapper {
+  margin: 0 auto;
+  border: 2px solid lighten($darkjunglegreen, 3%);
+  height: 70vh;
+  width: 70vw;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $ivory;
+  border-radius: 10px;
+  perspective-origin: center;
+  transform-style: preserve-3d;
+  perspective: 250px;
+  box-shadow: inset 0px 0px 5px 5px rgba($blackfogra39, 0.6);
+}
+
+.wrapper--side-front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(1em);
+}
+
+.wrapper--side-back {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(-1em);
+}
