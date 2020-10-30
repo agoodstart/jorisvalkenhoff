@@ -1,9 +1,12 @@
-.App-link {
-    color: #61dafb;
+p {
+  color: $darkliver;
 }
 
-  
 .test-anchor {
-    color: $marigold;
+  color: $marigold;
 }
-  
+
+.h1 {
+  font-weight: 800;
+  color: $electricblue;
+}

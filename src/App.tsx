@@ -1,28 +1,13 @@
 import React from 'react';
 import './sass/main.scss';
+import {IntroSection} from './tsx/introsection';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App"> 
-      <header className="App-header">
-        <p>
-          The site is currently under construction. 
-          Please come back later...
-        </p>
-  
-        <p>
-          Check out my <a target="_blank" rel="noreferrer" className="test-anchor" href="https://nl.linkedin.com/in/joris-valkenhoff-22670a186">LinkedIn</a> page
-        </p>
-
-        {/* <div className="testDiv">
-          <div className="color1"></div>
-          <div className="color2"></div>
-          <div className="color3"></div>
-          <div className="color4"></div>
-        </div> */}
-      </header>
-    </div>
-  );
+    <section className="App">
+      <IntroSection />
+    </section>
+  )
 }
 
-export default App;
+export default App; 
