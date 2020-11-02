@@ -1,16 +1,28 @@
 .App {
     height: 100vh;
     width: 100vw;
-    // background-color: $darkjunglegreen;
     background-image: linear-gradient(to left top, #041f1e, #042926, #05332e, #083d35, #0d483c);
-    // background-color: $blackfogra39;
-    // background-image: linear-gradient(to right top, #87f6ff, #72e6ff, #67d5ff, #68c4fa, #72b1f2);
-    // background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-    // background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     // background-color: black ;
     display: flex;
     align-items: center;
     z-index: -10;
+}
+
+.section-intro {
+    margin: 0 auto;
+    height: 70vh;
+    width: 70vw;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $ivory;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba($blackfogra39,0.12), 0 1px 2px rgba($blackfogra39,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 // background-color: $oldburgundy;

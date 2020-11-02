@@ -1,0 +1,82 @@
+.box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+
+  &--logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    z-index: -4;
+
+    // opacity: .2;
+
+    //green
+    &__middle-middle {
+      fill: #00bc71;
+    }
+
+    &__left-left {
+      fill: #0cce6b;
+    }
+
+    &__left-middle {
+      fill: #00c56f;
+    }
+
+    &__right-middle {
+      fill: #00b373;
+    }
+
+    &__right-right {
+      fill: #00aa74;
+    }
+
+
+    // blue
+    &__middle-middle {
+      fill: #67d5ff;
+    }
+
+    &__left-left {
+      fill: #87f6ff;
+    }
+
+    &__left-middle {
+      fill: #72e6ff;
+    }
+
+    &__right-middle {
+      fill: #68c4fa;
+    }
+
+    &__right-right {
+      fill: #72b1f2;
+    }
+
+    //grey
+    &__middle-middle {
+      fill: #75acaf;
+    }
+
+    &__left-left {
+      fill: #6ec5b4;
+    }
+
+    &__left-middle {
+      fill: #6fb9b4;
+    }
+
+    &__right-middle {
+      fill: #7c9fa6;
+    }
+
+    &__right-right {
+      fill: #829399;
+    }
+  }
+}
+
+//background-image: linear-gradient(to right top, #0cce6b, #00c56f, #00bc71, #00b373, #00aa74);
