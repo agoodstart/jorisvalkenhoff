@@ -1,40 +1,57 @@
 .App-header {
-  width: 100%;
-}
-
-.header-wrapper {
   margin: 0 auto;
-  border: 2px solid lighten($darkjunglegreen, 3%);
+  // border: 2px solid lighten($darkjunglegreen, 3%);
   height: 70vh;
   width: 70vw;
   font-size: 1.6rem;
   display: flex;
+  // background-color: $darkjunglegreen;
   flex-direction: column;
   align-items: center;
+  z-index: 10;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: $ivory;
-  border-radius: 10px;
-  perspective-origin: center;
-  transform-style: preserve-3d;
-  perspective: 250px;
-  box-shadow: inset 0px 0px 5px 5px rgba($blackfogra39, 0.6);
+  border-radius: 5px;
+  // box-shadow: inset 0px 0px 5px 5px rgba($blackfogra39, 0.6);
 }
 
-.wrapper--side-front {
+.box {
   width: 100%;
   height: 100%;
-  position: absolute;
-  transform: translateZ(1em);
+  position: fixed;
+
+  &--logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    z-index: -4;
+
+    // opacity: .2;
+
+    &__middle-middle {
+      fill: #00bc71;
+    }
+
+    &__left-left {
+      fill: #0cce6b;
+    }
+
+    &__left-middle {
+      fill: #00c56f;
+    }
+
+    &__right-middle {
+      fill: #00b373;
+    }
+
+    &__right-right {
+      fill: #00aa74;
+    }
+  }
 }
 
-.wrapper--side-back {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform: translateZ(-1em);
-}
+
+//background-image: linear-gradient(to right top, #0cce6b, #00c56f, #00bc71, #00b373, #00aa74);
