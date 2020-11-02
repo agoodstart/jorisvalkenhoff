@@ -8,9 +8,9 @@ const App: React.FC = () => {
   return (
     <section className="App">
       <Logo />
-{/* 
+
       <Navbar />
-      <IntroSection /> */}
+      <IntroSection />
     </section>
   )
 }

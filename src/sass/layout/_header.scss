@@ -1,3 +1,38 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    // background-color: green;
 
+    &--nav {
+        width: 50%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-//background-image: linear-gradient(to right top, #0cce6b, #00c56f, #00bc71, #00b373, #00aa74);
+        & > * {
+            text-decoration: none;
+            font-size: 1.6rem;
+            // color: $cadetgray;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        &__about {
+            background-image: linear-gradient(to right, #0cce6b, #00c56f, #00bc71, #00b373, #00aa74);
+        }
+
+        &__portfolio {
+            background-image: linear-gradient(to right, #87f6ff, #72e6ff, #67d5ff, #68c4fa, #72b1f2);
+        }
+
+        &__contact {
+            background-image: linear-gradient(to right, #e4b363, #cdaf54, #b4aa49, #99a541, #7da03d);
+        }
+        
+    }
+}

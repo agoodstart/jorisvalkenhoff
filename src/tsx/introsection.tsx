@@ -1,5 +1,4 @@
 import React from 'react';
-import {Box} from './components/perspective-box';
 
 export const IntroSection: React.FC = () => {
     return (
