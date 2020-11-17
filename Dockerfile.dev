@@ -1,0 +1,13 @@
+FROM node:alpine as builder
+WORKDIR /app
+COPY ./package.json ./
+COPY ./package-lock.json ./
+RUN npm install -g create-react-app@latest
+RUN npm install
+COPY . .
+CMD [ "npm", "run", "start" ]
+
+# FROM nginx:1.16.0-alpine
+# COPY --from=build /app/dist /usr/share/nginx/html
+# EXPOSE 80
+# CMD ["nginx", "-g", "daemon off;"]

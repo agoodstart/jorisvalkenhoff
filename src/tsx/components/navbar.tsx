@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-
-type Navigation = {
-    links: string[]
-}
+  
+// type Navigation = {
+//     links: string[]
+// }
 
 export const Navbar: React.FC = () => {
     const [logo, setLogo] = React.useState();

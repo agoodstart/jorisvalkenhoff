@@ -12,7 +12,6 @@ export const IntroSection: React.FC = () => {
                 <ul>Sass</ul>
                 <ul>Docker & Kubernetes</ul>
                 <ul>AWS</ul>
-                <ul>Apollo & GraphQL</ul>
             </li>
         </div>
     )
